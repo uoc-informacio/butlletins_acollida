@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="x-apple-disable-message-reformatting">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://campus.uoc.edu/estudiant/system/modules/edu.uoc.campus.presentations/resources/fonts/UOCSans-Bold.woff2" rel="stylesheet" type="text/css">
   <title>Píndola 2 · Impulsa el teu talent</title>
   <style>
+    @font-face { font-family: 'UOCSans-Bold'; src: url('https://campus.uoc.edu/estudiant/system/modules/edu.uoc.campus.presentations/resources/fonts/UOCSans-Bold.woff2') format('woff2'); font-weight: bold; }
     html, body { margin: 0 !important; padding: 0 !important; width: 100% !important; }
     table, td { border-collapse: collapse !important; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; }
     img { border: 0; display: block; height: auto; line-height: 100%; outline: none; text-decoration: none; }
@@ -15,6 +17,7 @@
     .body-text { color: #000078; font-family: Arial, Helvetica, sans-serif; font-size: 17px; line-height: 1.5; }
     .serif { font-family: Georgia, 'Times New Roman', serif; }
     .sans { font-family: Arial, Helvetica, sans-serif; }
+    .ew-header { border-spacing: 8px !important; border-collapse: separate !important; }
 
     @media only screen and (max-width: 640px) {
       .email-shell { width: 100% !important; }
@@ -27,6 +30,7 @@
       .benefit-gap { display: block !important; width: 100% !important; height: 8px !important; }
       .journey-card { display: block !important; width: 100% !important; }
       .journey-prev { border-right: 0 !important; border-bottom: 3px solid #ffffff !important; }
+      .welcome-label { font-size: 10px !important; letter-spacing: 0.5px !important; white-space: normal !important; }
     }
   </style>
 </head>
@@ -42,16 +46,19 @@
       <td align="center" style="padding:24px 0;">
         <table role="presentation" class="email-shell" width="640" cellspacing="0" cellpadding="0" border="0" style="width:640px;max-width:640px;background:#ffffff;">
 
-          <!-- CAPÇALERA D'ACOLLIDA: composició inspirada en les capçaleres aprovades per marca; el text és HTML accessible -->
+          <!-- CAPÇALERA INSTITUCIONAL UOC: text HTML accessible -->
           <tr>
-            <td class="mobile-pad" style="padding:15px 24px 14px;background:#f0f0f0;">
-              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+            <td style="padding:0;background:#ffffff;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="8" border="0" class="ew-header" style="width:100%;color:#000078;line-height:1;border-spacing:8px;border-collapse:separate;">
                 <tr>
-                  <td width="164" valign="middle" style="width:164px;">
-                    <img src="https://guia-frontend.uoc.edu/UOC/GEFv2/assets/img/logo-uoc-default.png" width="148" alt="Universitat Oberta de Catalunya" style="width:148px;max-width:100%;">
+                  <td rowspan="2" width="92" valign="top" style="min-width:92px;width:92px;padding:0;vertical-align:top;">
+                    <img src="https://guia-frontend.uoc.edu/UOC/GEFv2/assets/img/logo-uoc-default.png" height="68" alt="Logo UOC" style="max-width:100%;height:68px;">
                   </td>
-                  <td valign="middle" align="right" style="color:#000078;">
-                    <div class="sans" style="font-size:16px;line-height:1.2;font-weight:bold;letter-spacing:1.3px;text-transform:uppercase;">Acollida UOC</div>
+                  <td valign="top" style="box-sizing:border-box;height:68px;min-width:150px;width:auto;max-width:180px;padding:4px 0 0;border-top:4px solid #73edff;border-bottom:4px solid #73edff;color:#000078;font-family:'uoc-serif',Georgia,'Times New Roman',serif;font-size:17.6px;line-height:1;">
+                    Universitat Oberta<br>de Catalunya
+                  </td>
+                  <td valign="middle" align="right" style="box-sizing:border-box;height:68px;padding:1px 0 0;border-top:4px solid #73edff;border-bottom:4px solid #73edff;color:#000078;vertical-align:middle;">
+                    <div class="welcome-label" style="font-family:'UOCSans-Bold',Arial,Helvetica,sans-serif;font-size:13px;line-height:1.2;font-weight:bold;letter-spacing:1.1px;text-transform:uppercase;text-align:right;white-space:nowrap;">Acollida UOC</div>
                   </td>
                 </tr>
               </table>
@@ -98,7 +105,7 @@
             <td class="mobile-pad body-text" style="padding:34px 38px 14px;">
               <p style="margin:0 0 18px;"><strong>Hola, [TERCERSNOMBRESINAPELLIDOS],</strong></p>
               <p style="margin:0 0 18px;">En aquesta segona píndola trobaràs recursos per planificar el cost dels estudis, conèixer els ajuts disponibles i continuar desenvolupant les teves competències.</p>
-              <p style="margin:0;">Comencem amb una novetat per a l'estudiantat de nou accés: un curs gratuït per entendre i utilitzar la intel·ligència artificial generativa.</p>
+              <p style="margin:0;">Comencem amb un curs gratuït per entendre millor un dels temes de què més es parla: la intel·ligència artificial generativa.</p>
             </td>
           </tr>
 
