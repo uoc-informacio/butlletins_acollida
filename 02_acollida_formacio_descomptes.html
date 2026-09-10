@@ -25,8 +25,8 @@
       .route-label { font-size: 11px !important; }
       .benefit-cell { display: block !important; width: 100% !important; }
       .benefit-gap { display: block !important; width: 100% !important; height: 8px !important; }
-      .journey-card { display: block !important; width: 100% !important; }
-      .journey-prev { border-right: 0 !important; border-bottom: 3px solid #ffffff !important; }
+      .route-topic { font-size: 9px !important; letter-spacing: 0 !important; }
+      .route-number { font-size: 22px !important; }
     }
   </style>
 </head>
@@ -90,33 +90,13 @@
             </td>
           </tr>
 
-          <!-- PROGRÉS DEL RECORREGUT -->
-          <tr>
-            <td class="mobile-pad" style="padding:18px 28px;background:#ffffff;">
-              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="table-layout:fixed;">
-                <tr>
-                  <td width="16.67%" align="center" style="width:16.67%;background:#d6faff;color:#000078;padding:0;border-right:3px solid #ffffff;">
-                    <a href="https://uoc-informacio.github.io/butlletins_acollida/01_acollida_campus_virtual.html" target="_blank" title="Recupera la píndola 1: el teu Campus Virtual" class="sans route-label" style="display:block;padding:10px 4px;color:#000078;font-size:12px;line-height:1.2;font-weight:bold;text-transform:uppercase;text-decoration:underline;">Píndola 1</a>
-                  </td>
-                  <td width="16.67%" align="center" style="width:16.67%;background:#000078;color:#ffffff;padding:10px 5px;border-right:3px solid #ffffff;">
-                    <div class="sans route-label" style="font-size:12px;line-height:1.2;font-weight:bold;text-transform:uppercase;">Píndola 2</div>
-                  </td>
-                  <td width="16.67%" align="center" style="width:16.67%;background:#d6faff;color:#000078;padding:10px 4px;border-right:3px solid #ffffff;"><span class="sans" style="font-size:13px;font-weight:bold;">3</span></td>
-                  <td width="16.67%" align="center" style="width:16.67%;background:#d6faff;color:#000078;padding:10px 4px;border-right:3px solid #ffffff;"><span class="sans" style="font-size:13px;font-weight:bold;">4</span></td>
-                  <td width="16.67%" align="center" style="width:16.67%;background:#d6faff;color:#000078;padding:10px 4px;border-right:3px solid #ffffff;"><span class="sans" style="font-size:13px;font-weight:bold;">5</span></td>
-                  <td width="16.67%" align="center" style="width:16.67%;background:#d6faff;color:#000078;padding:10px 4px;"><span class="sans" style="font-size:13px;font-weight:bold;">6</span></td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-
           <!-- PORTADA DE LA PÍNDOLA 2 -->
           <tr>
             <td style="background:#73edff;padding:0;">
               <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                 <tr>
                   <td class="mobile-pad" valign="bottom" style="height:268px;padding:34px 38px;background:#73edff;">
-                    <div class="sans" style="color:#000078;font-size:12px;line-height:1.2;font-weight:bold;letter-spacing:1.4px;text-transform:uppercase;margin-bottom:12px;">Butlletí d'acollida · Beques i oportunitats</div>
+                    <div class="sans" style="color:#000078;font-size:12px;line-height:1.2;font-weight:bold;letter-spacing:1.4px;text-transform:uppercase;margin-bottom:12px;">Píndola 2 · Beques i oportunitats</div>
                     <div class="serif hero-title" style="color:#000078;font-size:46px;line-height:1.02;letter-spacing:-1px;">Impulsa<br>el teu talent</div>
                     <div class="sans" style="color:#000078;font-size:13px;line-height:1.3;margin-top:24px;font-weight:bold;"><img src="https://campus.uoc.edu/estudiant/_resources/img/novetats/butlleti/acollida/01_acollida_descomptes_2.gif" width="900" alt="" style="width:100%;max-width:900px;height:auto;"></div>
                   </td>
@@ -164,7 +144,7 @@
             <td class="mobile-pad" style="padding:32px 38px 18px;">
               <div class="sans" style="color:#000078;font-size:12px;line-height:1.2;font-weight:bold;letter-spacing:1.4px;text-transform:uppercase;margin-bottom:8px;">Planifica la matrícula</div>
               <h2 class="serif" style="color:#000078;font-size:34px;line-height:1.08;font-weight:normal;letter-spacing:-0.5px;margin:0;">Opcions de pagament i descomptes</h2>
-              <p class="body-text" style="margin:14px 0 8px;">Pots planificar el cost de la matrícula dels propers semestres de la manera que s'adapti millor a la teva situació.</p>
+              <p class="body-text" style="margin:14px 0 8px;">Pots planificar el cost dels estudis de la manera que s'adapti millor a la teva situació.</p>
               <p class="body-text" style="margin:0;">Els preus i els descomptes poden variar segons el tipus d'estudis, la titulació i el nombre de crèdits de què et matriculis.</p>
             </td>
           </tr>
@@ -315,31 +295,38 @@
             </td>
           </tr>
 
-          <!-- CONTINUÏTAT ENTRE PÍNDOLES: només la píndola publicada és navegable -->
+          <!-- RECORREGUT D'ACOLLIDA: substitueix la barra superior i el bloc de continuïtat -->
           <tr>
-            <td style="padding:0;background:#ffffff;">
-              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+            <td class="mobile-pad" style="padding:28px 28px 30px;background:#ffffff;">
+              <div class="sans" style="color:#000078;font-size:12px;line-height:1.2;font-weight:bold;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:7px;">El teu recorregut d'acollida</div>
+              <p class="sans" style="margin:0 0 16px;color:#000078;font-size:14px;line-height:1.4;">Recupera les píndoles anteriors i consulta els temes que rebràs pròximament.</p>
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;border-collapse:collapse;">
                 <tr>
-                  <td class="journey-card journey-prev" width="50%" valign="top" style="width:50%;padding:24px 28px;background:#73edff;border-top:4px solid #000078;border-right:3px solid #ffffff;">
-                    <a href="https://uoc-informacio.github.io/butlletins_acollida/01_acollida_campus_virtual.html" target="_blank" title="Recupera la píndola 1: el teu Campus Virtual" style="display:block;color:#000078;text-decoration:none;">
-                      <div class="sans" style="font-size:11px;line-height:1.2;font-weight:bold;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;text-decoration:underline;">Recupera la píndola anterior</div>
-                      <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin-bottom:8px;">
-                        <tr>
-                          <td width="18" valign="middle" style="width:18px;">
-                            <img src="https://campus.uoc.edu/estudiant/_resources/img/novetats/butlleti/acollida/fletxa_esquerra.svg" width="18" height="20" alt="" style="display:block;width:18px;height:20px;border:0;">
-                          </td>
-                          <td width="10" style="width:10px;font-size:0;line-height:0;">&nbsp;</td>
-                          <td valign="middle" class="serif" style="color:#000078;font-size:29px;line-height:1;">01</td>
-                        </tr>
-                      </table>
-                      <div class="sans" style="font-size:16px;line-height:1.3;font-weight:bold;text-decoration:underline;">El teu Campus Virtual</div>
+                  <td width="16.67%" align="center" valign="top" style="width:16.67%;padding:0;background:#73edff;border-top:4px solid #000078;border-right:3px solid #ffffff;">
+                    <a href="https://uoc-informacio.github.io/butlletins_acollida/01_acollida_campus_virtual.html" target="_blank" title="Recupera la píndola 1: el teu Campus Virtual" style="display:block;padding:13px 3px 14px;color:#000078;text-align:center;text-decoration:none;">
+                      <div class="serif route-number" style="font-size:26px;line-height:1;margin-bottom:7px;">01</div>
+                      <div class="sans route-topic" style="font-size:11px;line-height:1.15;font-weight:bold;text-decoration:underline;">Campus</div>
                     </a>
                   </td>
-                  <td class="journey-card" width="50%" valign="top" style="width:50%;padding:24px 28px;background:#d6faff;border-top:4px solid #73edff;color:#000078;">
-                    <div class="sans" style="font-size:11px;line-height:1.2;font-weight:bold;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;color:#555555;">Properament</div>
-                    <div class="serif" style="font-size:29px;line-height:1;margin-bottom:8px;color:#555555;">03</div>
-                    <div class="sans" style="font-size:16px;line-height:1.3;font-weight:bold;">La teva xarxa de suport</div>
-                    <div class="sans" style="font-size:13px;line-height:1.35;margin-top:7px;color:#555555;">T'arribarà per correu.</div>
+                  <td width="16.67%" align="center" valign="top" style="width:16.67%;padding:13px 3px 14px;background:#000078;border-top:4px solid #000078;border-right:3px solid #ffffff;color:#ffffff;">
+                    <div class="serif route-number" style="font-size:26px;line-height:1;margin-bottom:7px;">02</div>
+                    <div class="sans route-topic" style="font-size:11px;line-height:1.15;font-weight:bold;">Beques · IA</div>
+                  </td>
+                  <td width="16.67%" align="center" valign="top" style="width:16.67%;padding:13px 3px 14px;background:#d6faff;border-top:4px solid #73edff;border-right:3px solid #ffffff;color:#555555;">
+                    <div class="serif route-number" style="font-size:26px;line-height:1;margin-bottom:7px;">03</div>
+                    <div class="sans route-topic" style="font-size:11px;line-height:1.15;font-weight:bold;">Atenció</div>
+                  </td>
+                  <td width="16.67%" align="center" valign="top" style="width:16.67%;padding:13px 3px 14px;background:#d6faff;border-top:4px solid #73edff;border-right:3px solid #ffffff;color:#555555;">
+                    <div class="serif route-number" style="font-size:26px;line-height:1;margin-bottom:7px;">04</div>
+                    <div class="sans route-topic" style="font-size:11px;line-height:1.15;font-weight:bold;">Equip docent</div>
+                  </td>
+                  <td width="16.67%" align="center" valign="top" style="width:16.67%;padding:13px 3px 14px;background:#d6faff;border-top:4px solid #73edff;border-right:3px solid #ffffff;color:#555555;">
+                    <div class="serif route-number" style="font-size:26px;line-height:1;margin-bottom:7px;">05</div>
+                    <div class="sans route-topic" style="font-size:11px;line-height:1.15;font-weight:bold;">Aula virtual</div>
+                  </td>
+                  <td width="16.67%" align="center" valign="top" style="width:16.67%;padding:13px 3px 14px;background:#d6faff;border-top:4px solid #73edff;color:#555555;">
+                    <div class="serif route-number" style="font-size:26px;line-height:1;margin-bottom:7px;">06</div>
+                    <div class="sans route-topic" style="font-size:11px;line-height:1.15;font-weight:bold;">Inici semestre</div>
                   </td>
                 </tr>
               </table>
